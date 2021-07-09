@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
     <div class="container">
     <h1>Url Shortener</h1>
-    <form action="" method="POST" class="my-4">
-        <label class="sr-only" for="fullUrl">Url</label>
-        <input type="url" name="fullUrl" id="fullUrl">
-        <button type="submit">Shrink</button>
+    <form action="" method="POST" class="my-4 form-inline">
+        <input required class="" type="url" placeholder="Url" name="fullUrl" id="fullUrl">
+        <button class="btn btn-success" type="submit">Shrink</button>
     </form>
     <table>
         <thead>
